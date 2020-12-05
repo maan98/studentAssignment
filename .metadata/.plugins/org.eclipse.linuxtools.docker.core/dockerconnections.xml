@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+<connection name="" uri="https://192.168.99.100:2376" cert="C:\Users\nsingh306\.docker\machine\machines\default"/>
+<connection name="" uri="https://192.168.99.100:2376" cert="C:Users
+singh306.dockermachinemachinesdefault"/>
+</connections>

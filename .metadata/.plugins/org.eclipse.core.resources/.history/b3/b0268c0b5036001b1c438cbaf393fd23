@@ -1,0 +1,11 @@
+package com.org.dxc.service;
+
+import com.org.dxc.model.Student;
+
+public interface StudentService {
+
+	public Student insertStudent(Student student);
+
+	public Student updateStudent(Student student);
+
+}

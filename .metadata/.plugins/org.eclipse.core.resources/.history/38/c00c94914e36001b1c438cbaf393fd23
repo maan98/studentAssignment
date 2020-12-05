@@ -1,0 +1,20 @@
+package com.org.dxc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.org.dxc.model.Student;
+import com.org.dxc.repository.StudentRepository;
+
+@Service
+public class StudentServiceImp implements StudentService{
+
+	@Autowired
+	StudentRepository repository;
+
+	@Override
+	public Student insertStudent(Student student) {
+		// TODO Auto-generated method stub
+		return repository.save(student);
+	}
+}
