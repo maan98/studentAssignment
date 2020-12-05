@@ -42,7 +42,7 @@ public class StudentController {
 	}
 	
 	@DeleteMapping("/student/{id}")
-	public List<Student> deleteStudent(@PathVariable int id) {
-		return service.deleteStudent(id);
+	public void deleteStudent(@PathVariable int id) {
+		service.deleteStudent(id);
 	}
 }

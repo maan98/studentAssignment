@@ -12,7 +12,7 @@ public interface StudentService {
 
 	public List<Student> getAllStudents();
 
-	public List<Student> deleteStudent(int id);
+	public void deleteStudent(int id);
 
 	public Student getStudentById(int id);
 

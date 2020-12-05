@@ -35,10 +35,9 @@ public class StudentServiceImp implements StudentService{
 	}
 
 	@Override
-	public List<Student> deleteStudent(int id) {
+	public void deleteStudent(int id) {
 		// TODO Auto-generated method stub
 		repository.deleteById(id);
-		return repository.findAll();
 	}
 
 	@Override
